@@ -23,4 +23,4 @@ gulp.task('watch', function() {
   gulp.watch([paths.indexjs], ['es5ify', 'run_app']);
 });
 
-gulp.task('default', ['es5ify']);
+gulp.task('default', ['es5ify', 'run_app']);
