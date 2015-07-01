@@ -1,0 +1,29 @@
+{
+  "name": "ndc2015",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "sdf"
+  },
+  "keywords": [
+    "ES2015",
+    "promises",
+    "generators"
+  ],
+  "author": "Christian Wallervand",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-shell": "^0.4.2"
+  },
+  "dependencies": {
+    "request": "^2.58.0"
+  }
+}
