@@ -27,7 +27,7 @@ let Ndc2015 = {
     }
   },
   promiseFunc(message, timeout) {
-    return new Promise((resolve, rejevt) => {
+    return new Promise((resolve, reject) => {
       setTimeout(() => {
         resolve(message);
       }, timeout);
@@ -84,7 +84,7 @@ Ndc2015.getData('http://coinabul.com/api.php')
     return Ndc2015.promiseFunc('May the force be with you', 500);
   })
   .then((message) => {
-    console.log(message);
+    console.log(`Quote of the century ${message}`);
   })
   .catch((err) => {
     console.log('Error', err);
